@@ -1,0 +1,53 @@
+.list-item {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-title-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 150px;
+  border-radius: 5px;
+  margin-right: 14px;
+}
+.name {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.genre {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #3b82f6;
+  font-weight: 400;
+  margin: 0;
+}
+.duration-icon-container {
+  display: flex;
+  align-items: center;
+}
+.duration {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0;
+  margin-right: 30px;
+}
+.icon {
+  color: #ffffff;
+}
+.delete {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
